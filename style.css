@@ -1,1 +1,34 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap')
+
+
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Open sans', sans-serif;
+
+}
+
+#menu-horizontal{
+    list-style: none;
+    padding: 0;
+    background-color: brown;
+}
+
+#menu-horizontal li{
+    display: inline;
+}
+
+#menu-horizontal li a{
+    color: aliceblue;
+    padding: 20px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s
+}
+
+#menu-horizontal li a:hover {
+    background-color: white;
+
+}
