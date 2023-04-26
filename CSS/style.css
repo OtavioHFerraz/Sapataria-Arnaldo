@@ -48,6 +48,33 @@ main {
     line-height: 1.4;
   }
 
+  .menu {
+    background-color: #a75207;
+    overflow: hidden;
+  }
+
+  .menu nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .menu ul {
+    display: flex;
+    padding: 10px;
+  }
+
+  .menu li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 15px;
+    padding: 20px;
+  }
+
+  .menu li a :hover {
+    transition: 0.5s;
+    background-color: black;
+  }
+
   .link-menu-principal a {
     text-decoration: none;
   }
@@ -64,6 +91,10 @@ main {
 
   .vitrine-produtos {
     margin: 40px 0;
+  }
+
+  .vitrine-produtos ul {
+    display: flex;
   }
 
   .lista-produtos {
@@ -86,6 +117,10 @@ main {
     padding: 20px;
   }
 
+  .link-sociais i {
+    color: black;
+  }
+
   .imagem-banner {
     width: 100%;
     height: 200px;
@@ -106,33 +141,6 @@ main {
   .menu-navegacao ul li {
     padding: 20px;
   }
-  
-  article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, img {
-    display: block;
-  }
-
-#menu-horizontal{
-    list-style: none;
-    padding: 0;
-    background-color: rgb(255, 255, 255);
-}
-
-#menu-horizontal li{
-    display: inline;
-}
-
-#menu-horizontal li a{
-    color: rgb(0, 0, 0);
-    padding: 20px;
-    display: inline-block;
-    text-decoration: none;
-    transition: rgb(0, 0, 0) .4s
-}
-
-#menu-horizontal li a:hover {
-    background-color: white;
-
-}
 
 .contact-section {
   width: 100%;
@@ -157,9 +165,9 @@ main {
     margin: 5px 0;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .menu-navegacao, .titulo-pagina, .subtitulo-pagina, main, .formulario-contato
-    }
+    
 
     .titulo-pagina {
     margin: 10px 0;
@@ -169,7 +177,7 @@ main {
 @media screen and (max-width: 380px) {
     .menu-navegacao ul 11, .rodape 
     
-}
+} */
 
 label {
     display: block;
@@ -203,8 +211,6 @@ label {
 }
 
 section {
-  display: flex;
-  align-items: center;
   justify-content: center;
   height: 73vh;
 }
@@ -268,3 +274,4 @@ form button :hover {
   color: black;
   border-radius: 16px;
 }
+
