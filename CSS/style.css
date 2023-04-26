@@ -1,5 +1,5 @@
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap')
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Rubik&display=swap');
 
 body {
     font-family: Raleway, sans-serif;
@@ -267,5 +267,4 @@ form button :hover {
   background: black;
   color: black;
   border-radius: 16px;
-}
 }
